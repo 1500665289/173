@@ -1,0 +1,24 @@
+﻿<Esoteriacs><List>	
+	<Esoteriac Name="SpellOfTriWorldByDao">
+		<DisplayName>太一遗箓</DisplayName>
+		<Desc>太一门所遗失的历代真人绘制的符咒</Desc>
+		<Hide>0</Hide>
+		<Element>None</Element>
+		<Type>None</Type>
+		<Difficulty>0</Difficulty>
+		<EffectDesc>解锁 符箓：\n红尘符\n红尘箓\n太一符-阴\n太一符-阳\n御风符\n吞日符\n巨弩级灵压-千炼箓\n巨弩级灵压-九转金丹直指符\n道心符\n自然符\n功德符</EffectDesc>
+		<Spells>
+			<li>Spell_HC</li>
+			<li>Spell_HCL</li>
+			<li>Spell_TYIN</li>
+			<li>Spell_TYANG</li>
+			<li>Spell_Wind</li>
+			<li>Spell_TR</li>
+			<li>Spell_QL</li>
+			<li>Spell_QUNZHU</li>
+			<li>Spell_DX</li>
+			<li>Spell_ZR</li>
+			<li>Spell_GD</li>
+		</Spells>
+	</Esoteriac>	
+</List></Esoteriacs>

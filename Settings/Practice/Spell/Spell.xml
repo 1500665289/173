@@ -1,0 +1,168 @@
+﻿<Spells><List>			
+	<Spell Name="Spell_HC">
+		<DisplayName>红尘符</DisplayName>
+		<Desc>太一门中心之主红尘仙观世间百态后所绘制符咒，外门弟子携带此符之后就可以微量提高生活的质量。</Desc>
+		<Template>Spell/main_texture_qingshen01</Template>
+		<Effects>
+			<li Name="MoveSpeed" AddP="0.2"/><!--移动速度-->
+			<li Name="RecoveryPower" AddP="0.2"/><!--提高身体自然恢复力-->
+			<li Name="FatigueConsumeConstant" AddP="-0.2"/><!--精力消耗速度加成-->
+			<li Name="FatigueRecoveryConstant" AddP="0.3"/><!--精力补充加成-->
+			<li Name="NutritionConsumeConstant" AddP="-0.3"/><!--降低身体对食物消耗-->
+			<li Name="WaterConsumeConstant" AddP="-0.3"/><!--降低身体对水消耗-->
+ 			<li Name="HappyConsumeConstant" AddP="-0.3"/><!--降低娱乐值的衰减速度-->
+			<li Name="BaseEmotionAddV" AddV="5"/><!--让人心情轻微变好-->
+		</Effects>
+	</Spell>
+	
+	<Spell Name="Spell_HCL">
+		<DisplayName>红尘箓</DisplayName>
+		<Desc>太一门中心之主红尘仙观世间百态后所绘制符箓，内门弟子携带此符之后就可以更易修行。</Desc>
+		<Template>Spell/main_texture_qingshen01</Template>
+		<Effects>
+			<li Name="PracticeFoodConsumeConstant" AddP="0.2"/>
+			<li Name="PracticeFoodRecoveryConstant" AddP="0.2"/>
+			<li Name="MindStateBaseValue" AddV="10"/><!--提高心境-->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.2"/><!--提高0.2倍修炼速度-->
+			<li Name="LingAbsorbSpeed" AddP="0.3"/><!--灵气恢复速度提高30%-->
+			<li Name="SpeedOfMindStateCoefficient" AddP="0.2"/><!--心境不会波动-->
+			<li Name="PracticeRateAddPFromDan" AddP="0.2"/><!--突破瓶颈成功率增加-->
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.15"/><!--使头脑清明，提高学习能力-->
+		</Effects>
+	</Spell>
+	
+
+	<Spell Name="Spell_TYIN">
+		<DisplayName>太一符-阴</DisplayName>
+		<Desc>太一门特有的符咒，太一门太上长老太二体谅外门弟子生活不易而专门为其绘制的符咒。</Desc>
+		<Template>Spell/main_texture_bishu01</Template>
+		<Effects>
+			<li Name="ComfyTMax" AddV="15"/>
+			<li Name="ToleranceTMax" AddV="15"/>
+			<li Name="ComfyTMin" AddV="-15"/>
+			<li Name="ToleranceTMin" AddV="-15"/>
+			<li Name="MoveSpeed" AddP="0.2"/><!--移动速度提高50%-->
+			<li Name="HappyConsumeConstant" AddP="-0.2"/>
+			<li Name="BaseEmotionAddV" AddV="2"/><!--让人心情轻微变好-->
+			<li Name="MadeQualityAddValue" AddV="0.2"/>
+			<li Name="GlobalEfficiency" AddP="0.2"/><!--使手脚灵敏，工作效率提高-->
+			<li Name="TreatmentExpectQuality" AddP="0.2"/><!--提高治疗的成功率和疗效-->
+			<li Name="TreatSuccessChance" AddP="0.2"/><!--提高治疗的成功率和疗效-->
+		</Effects>
+	</Spell>
+
+	<Spell Name="Spell_TYANG">
+		<DisplayName>太一符-阳</DisplayName>
+		<Desc>太一门特有的符咒，太一门太上长老太二为了提升内门弟子修行水平而专门为其绘制的符咒。</Desc>
+		<Template>Spell/main_texture_bishu01</Template>
+		<Effects>
+			<li Name="ComfyTMax" AddV="50"/>
+			<li Name="ToleranceTMax" AddV="50"/>
+			<li Name="ComfyTMin" AddV="-35"/>
+			<li Name="ToleranceTMin" AddV="-35"/>
+			<li Name="MoveSpeed" AddP="0.3"/><!--移动速度提高60%-->
+			<li Name="WorldMapFlySpeedAddP" AddV="0.4"/><!--世界地图飞行速度-->
+			<li Name="MindStateBaseValue" AddV="10"/><!--提高心境-->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/><!--提高10%修炼速度-->
+			<li Name="LingAbsorbSpeed" AddP="0.3"/><!--灵气恢复速度提高30%-->
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.15"/><!--使头脑清明，提高学习能力-->
+			<li Name="VisionRadius" AddP="0.15"/><!--提高视野范围-->
+		</Effects>
+	</Spell>
+	
+	
+	<Spell Name="Spell_Wind">
+		<DisplayName>御风符</DisplayName>
+		<Desc>太一门鬼才弟子扫把星为了减少跑腿的时间而花费大量心血绘制成的符咒。</Desc>
+		<Template>Spell/main_texture_shenxing01</Template>
+		<Effects>
+			<li Name="MoveSpeed" AddP="0.2"/>
+			<li Name="WorldMapFlySpeedAddP" AddV="0.6"/>
+			<li Name="VisionRadius" AddP="0.3"/><!--提高视野范围-->
+		</Effects>
+	</Spell>
+	
+	<Spell Name="Spell_TR">
+		<DisplayName>吞日魔符</DisplayName>
+		<Desc>太一门叛徒吞日真人所绘制的符咒，能大量的灵气的恢复速度。</Desc>
+		<Template>Spell/main_texture_tianxin01</Template>
+		<Effects>
+			<li Name="LingAbsorbSpeed" AddP="2"/><!--灵气恢复速度提高200%-->
+		</Effects>
+	</Spell>
+	
+	
+	<Spell Name="Spell_	QL">
+		<DisplayName>巨弩级灵压-千炼箓</DisplayName>
+		<Desc>由太一门一代丹器大师-巨弩级灵压在飞升之前绘制的符箓能微量提高法宝炼制的能力的符箓。</Desc>
+		<Template>Spell/main_texture_yaowang01</Template>
+		<Effects>
+			<li Name="FabaoMake_SpeedAddV" AddV="0.15"/><!--提高炼制法宝的速度-->
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="0.15"/><!--提高炼制法宝的品阶-->
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.15"/><!--提高炼制法宝成功率15%-->
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.04"/><!--提高神器的炼制几率-->
+		</Effects>
+	</Spell>
+	
+	<Spell Name="Spell_QUNZHU">
+		<DisplayName>巨弩级灵压-九转金丹直指符</DisplayName>
+		<Desc>由太一门一代丹器大师-巨弩级灵压在飞升之前绘制的符箓能微量提高丹药炼制能力的符箓。</Desc>
+		<Template>Spell/main_texture_yaowang01</Template>
+		<Effects>
+			<li Name="DanMake_SpeedAddV" AddV="0.15"/><!--提高炼制丹药的速度-->
+			<li Name="DanMake_SuccessRateAddV" AddV="0.15"/><!--提高炼制丹药的成功率30%-->
+			<li Name="DanMake_YieldAddP" AddV="0.15"/><!--轻微提高炼制丹药的产量-->
+		</Effects>
+	</Spell>	
+					
+	<Spell Name="Spell_DX">
+		<DisplayName>道心符</DisplayName>
+		<Desc>太一门唯一一位以九品金丹之姿飞升仙界的祖师李道心所绘制的符咒，装备此符咒可以少量的提高修士的各种属性。</Desc>
+		<Template>Spell/main_texture_shenshi01</Template>
+		<Effects>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="2"/><!--提高法宝威力-->
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/><!--提高法宝回灵倍率-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="1"/><!--提高法术威力-->
+			<li Name="NpcFight_SpellLingCostAddP" AddP="1"/>
+			<li Name="NpcFight_SpellLingCostAddP" BAddP="-0.1"/><!--从根本上提高法术威力，法术灵气消耗-->
+			<li Name="NpcFight_SpellPowerAddP" BAddP="0.1"/><!--从根本上提高法术威力-->
+			<li Name="AbilityLvAddV" AddV="-25"/><!--降低道行-->
+			<li Name="PotentialOfBasepracticeAddValue" AddV="1"/><!--提高潜力-->
+		</Effects>
+	</Spell>
+
+
+	<Spell Name="Spell_ZR">
+		<DisplayName>自然箓</DisplayName>
+		<Desc>太一门最年轻的外门主管-浅红尘所绘制的符箓，外门佩戴此符可以和自然融为一体少量提高物品的产量。</Desc>
+		<Template>Spell/main_texture_yaowang01</Template>
+		<Effects>
+			<li Name="MoveSpeed" AddV="0.2"/>
+			<li Name="MoveSpeed" AddV="0.2"/><!--移动速度-->
+			<li Name="PlantHarvestYieldEfficiency" AddP="0.2"/><!--提高种植收获时的产量-->
+			<li Name="ButcherYieldEfficiency" AddP="0.3"/><!--提高打猎收获时的产量-->
+			<li Name="MadeQualityAddValue" AddV="0.15"/><!--提高制作品质-->
+			<li Name="ComfyTMin" AddV="-10"/><!--最低舒适温度-->
+			<li Name="ToleranceTMin" AddV="-20"/><!--最低极限稳定-->
+			<li Name="ComfyTMax" AddV="10"/><!--最高舒适温度-->
+			<li Name="ToleranceTMax" AddV="20"/><!--最高极限稳定-->
+		</Effects>
+	</Spell>
+
+	<Spell Name="Spell_GD">
+		<DisplayName>功德箓</DisplayName>
+		<Desc>太一门乃至修行界的奇迹-太一弟子简归凡，因先天原因不能修行，一生行善无数，无论是正道还是魔教都对其敬佩有加，在太一门退魔真人飞升时仙界洒下功德之光助其成仙飞升，简归凡便将其中的部分功德之光绘制成功德符，装备此符咒可以少量的提高外门弟子的各种属性。</Desc>
+		<Template>Spell/main_texture_tianxin01</Template>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Effects>
+			<li Name="MaxAge" AddV="50"/><!--基础寿元-->
+			<li Name="BaseEmotionAddV" AddV="10"/><!--心情值-->
+			<li Name="RecoveryPower" AddP="0.3"/><!--提高身体自然恢复力-->
+			<li Name="GlobalEfficiency" AddP="0.2"/><!--使手脚灵敏，工作效率提高-->
+			<li Name="NpcFight_BaseHitChance" AddV="0.2"/><!--提高战斗能力，提高命中概率-->
+			<li Name="NpcFight_BaseDodgeChance" AddV="0.2"/><!--提高战斗能力，提高回避概率-->
+			<li Name="PainTolerance" AddP="0.2"/><!--提高战斗能力，提高疼痛忍耐-->
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.2"/><!--使头脑清明，提高学习能力-->
+		</Effects>
+	</Spell>
+</List>	</Spells>
